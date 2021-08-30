@@ -2,9 +2,10 @@ $(document).ready(function(){
 
     $('.slider').slick({
          
-        dots: true,
+        dots: false,
         Infinity: false,
         arrows: true,
+        speed: 1000,
           
           
         appendDots:'.slider-dots',
